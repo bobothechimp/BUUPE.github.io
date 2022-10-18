@@ -126,36 +126,15 @@ const Header = ({ classes }) => (
               <Link className={classes.mainNavLinksLink} to={ROUTES.LANDING}>
                 <span>Home</span>
               </Link>
-              <NavDropdown
-                title={<span className={classes.mainNavLinksLink}>About</span>}
-                className={classes.mainNavLinksDropDowns}
-                id="collasible-nav-dropdown"
-              >
-                <p>
-                  <Link
-                    className={classes.mainNavLinksDropDownsSubLink}
-                    to={ROUTES.ABOUT}
-                  >
-                    About
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    className={classes.mainNavLinksDropDownsSubLink}
-                    to={ROUTES.MEMBERS}
-                  >
-                    Members
-                  </Link>
-                </p>
-                <p>
-                  <Link
-                    className={classes.mainNavLinksDropDownsSubLink}
-                    to={ROUTES.CONTACT}
-                  >
-                    Contact
-                  </Link>
-                </p>
-              </NavDropdown>
+              <Link className={classes.mainNavLinksLink} to={ROUTES.ABOUT}>
+                <span>About</span>
+              </Link>
+              <Link className={classes.mainNavLinksLink} to={ROUTES.MEMBERS}>
+                <span>Members</span>
+              </Link>
+              <Link className={classes.mainNavLinksLink} to={ROUTES.CONTACT}>
+                <span>Contact</span>
+              </Link>
               <Link className={classes.mainNavLinksLink} to={ROUTES.EVENTS}>
                 <span>Events</span>
               </Link>
