@@ -55,7 +55,7 @@ const Footer = ({ classes }) => (
 
           <div className="col-lg-4 mb-5 mb-lg-0">
             <div className={classes.footerCopyright}>
-              <small>Copyright &copy; BU UPE 2020</small>
+              <small>Copyright &copy; BU UPE 2022</small>
             </div>
 
             <div className={classes.footerLinks}>
