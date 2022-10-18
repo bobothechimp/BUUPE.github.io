@@ -7,6 +7,7 @@ import {
   faGithub,
   faFacebook,
   faTwitterSquare,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { withStyles } from "@material-ui/styles";
 
@@ -82,6 +83,15 @@ const Footer = ({ classes }) => (
                   <FontAwesomeIcon
                     className={classes.footerIcon}
                     icon={faTwitterSquare}
+                  />
+                </a>
+              </span>
+              <span>
+                <a href="https://www.instagram.com/upebu/">
+                  {""}
+                  <FontAwesomeIcon
+                    className={classes.footerIcon}
+                    icon={faInstagram}
                   />
                 </a>
               </span>
