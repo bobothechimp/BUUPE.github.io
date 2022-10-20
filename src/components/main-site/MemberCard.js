@@ -13,6 +13,7 @@ import { compose } from "recompose";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const styles = {
   cardImgTop: {
     width: "75%",
