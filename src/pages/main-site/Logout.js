@@ -14,7 +14,7 @@ const styles = {
     "& h1": {
       textAlign: "center",
       fontSize: "50px",
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontWeight: 1000,
       color: "#f21131",
       paddingTop: "100px",

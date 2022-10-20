@@ -25,21 +25,21 @@
 
 .inputWrapper h1 {
 	font-size: 30px;
-	font-family: 'Gruppo';
+	font-family: 'Roboto';
 	font-weight: 1000;
 	color: #f21131;
 }
 
 .loginCard .title h1 {
 	font-size: 50px;
-	font-family: 'Gruppo';
+	font-family: 'Roboto';
 	font-weight: 1000;
 }
 
 .button-group .btn {
 	background-color: #C30000;
 	border-color: #C30000;
-	font-family: 'Gruppo';
+	font-family: 'Roboto';
 	font-weight: 800;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -48,7 +48,7 @@
 .button-group .btn:hover {
 	background-color: #6C0000;
 	border-color: #6C0000;
-	font-family: 'Gruppo';
+	font-family: 'Roboto';
 	font-weight: 800;
 	font-size: 20px;
 	text-transform: uppercase;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Gruppo");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 .calendar {
 	padding-bottom: 100px;
@@ -95,7 +95,7 @@ button.rbc-input::-moz-focus-inner {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  font-family: 'Gruppo';
+  font-family: 'Roboto';
   font-weight: 1000;
   font-size: 50px; }
   .rbc-toolbar .rbc-toolbar-label {
