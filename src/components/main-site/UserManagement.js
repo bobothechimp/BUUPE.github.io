@@ -24,7 +24,7 @@ const styles = {
   btn: {
     backgroundColor: "#f21131",
     borderColor: "#f21131",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: "800",
     fontSize: "15px",
     textTransform: "uppercase",

@@ -13,7 +13,6 @@ import { compose } from "recompose";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 const styles = {
   cardImgTop: {
     width: "75%",
@@ -40,12 +39,12 @@ const styles = {
   },
   cardTitle: {
     fontSize: "30px",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: 1000,
   },
   cardSubtitle: {
     fontSize: "25px",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: 1000,
     color: "#f21131",
   },

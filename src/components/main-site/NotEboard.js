@@ -5,7 +5,7 @@ const styles = {
   main: {
     textAlign: "center",
     "& h1": {
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontSize: "50px",
       margin: 0,
       lineHeight: 1,

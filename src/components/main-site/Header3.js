@@ -22,7 +22,7 @@ const styles = {
   },
   mainNavBrand: {
     "& span": {
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontSize: "36px",
       margin: 0,
       lineHeight: 1,

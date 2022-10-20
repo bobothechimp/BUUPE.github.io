@@ -35,7 +35,7 @@ const styles = {
     padding: "0px 10px 50px 10px",
     "& h1": {
       fontSize: "30px",
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontWeight: 1000,
       color: "#f21131",
     },
@@ -44,7 +44,7 @@ const styles = {
     paddingTop: "15px",
     "& h1": {
       fontSize: "50px",
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontWeight: 1000,
     },
   },
@@ -53,14 +53,14 @@ const styles = {
     "& .btn": {
       backgroundColor: "#C30000",
       borderColor: "#C30000",
-      fontFamily: "Gruppo",
+      fontFamily: "Roboto",
       fontWeight: "800",
       fontSize: "20px",
       textTransform: "uppercase",
       "&:hover": {
         backgroundColor: "#6C0000",
         borderColor: "#6C0000",
-        fontFamily: "Gruppo",
+        fontFamily: "Roboto",
         fontWeight: "800",
         fontSize: "20px",
         textTransform: "uppercase",

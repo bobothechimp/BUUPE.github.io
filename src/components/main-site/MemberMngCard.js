@@ -30,12 +30,12 @@ const styles = {
   },
   cardTitle: {
     fontSize: "30px",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: 1000,
   },
   cardSubtitle: {
     fontSize: "25px",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: 1000,
     color: "#f21131",
   },
@@ -57,7 +57,7 @@ const styles = {
   btn: {
     backgroundColor: "#f21131",
     borderColor: "#f21131",
-    fontFamily: "Gruppo",
+    fontFamily: "Roboto",
     fontWeight: "800",
     fontSize: "15px",
     textTransform: "uppercase",
