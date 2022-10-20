@@ -49,6 +49,7 @@ const styles = {
     paddingRight: "300px",
   },
   mainNavLinksLink: {
+    fontFamily: "WireOne",
     paddingTop: "8px",
     paddingLeft: "20px",
     color: "#fff",
