@@ -20,7 +20,6 @@ class MemberListBase extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      eboard: [],
       memberClasses: [],
       members: null,
     };
@@ -28,7 +27,6 @@ class MemberListBase extends Component {
 
   componentDidMount() {
     this.getClasses();
-    this.getEboard();
   }
 
   getClasses() {
@@ -36,18 +34,6 @@ class MemberListBase extends Component {
       const memberClasses = Object.entries(doc.data().classes).sort((a,b) => b[1] > a[1] ? 1 : -1).map(c => c[0]);
       this.setState({ memberClasses }, this.getMembers);
     });
-  }
-
-  getEboard() {
-    this.props.firebase
-      .getEboard()
-      .then((querySnapshot) => {
-        const eboard = querySnapshot.docs.map((doc) => doc.data());
-        this.setState({ eboard });
-      })
-      .catch((error) => {
-        console.error("Error getting documents: ", error);
-      });
   }
   
   getMembers() {
@@ -99,8 +85,8 @@ class MemberListBase extends Component {
             </Col>
           </Row>
           <Row className={classes.listings}>{eboard}</Row>
-		  
-		  {this.state.members}
+
+          {this.state.members}
 		</Container>
       </div>
     );
