@@ -12,6 +12,7 @@ import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import * as ROUTES from "../../constants/routes";
 
 import img from "../../assets/img/header.jpg";
+import logo from "../../assets/img/new-logo-to-be-replaced.png";
 
 const styles = {
   mainNav: {
@@ -22,9 +23,12 @@ const styles = {
     backgroundColor: "#333",
   },
   mainNavBrand: {
+    paddingLeft: "10px",
     "& span": {
-      fontFamily: "Gruppo",
+      fontFamily: "Cinzel",
       fontSize: "36px",
+      fontStyle: "semibold",
+      fontWeight: "600",
       margin: 0,
       lineHeight: 1,
       fontWeight: 800,
@@ -36,7 +40,7 @@ const styles = {
         paddingLeft: "20px",
       },
       "@media only screen and (min-width:992px)": {
-        paddingLeft: "300px",
+        paddingLeft: "50px",
       },
       "&:hover": {
         color: "#C30000",
@@ -45,11 +49,11 @@ const styles = {
     },
   },
   mainNavLinks: {
-    fontSize: "20px",
-    paddingRight: "300px",
+    fontSize: "25px",
+    paddingRight: "20px",
   },
   mainNavLinksLink: {
-    fontFamily: "WireOne",
+    fontFamily: "Teko",
     paddingTop: "8px",
     paddingLeft: "20px",
     color: "#fff",
@@ -117,7 +121,8 @@ const Header = ({ classes }) => (
       <Navbar collapseOnSelect className={classes.mainNav} expand="lg">
         <Link to={ROUTES.LANDING}>
           <Navbar.Brand className={classes.mainNavBrand}>
-            <span>BU UPE</span>
+            <img src={logo} alt="UPE Logo" width="50" height="auto"/>
+            {/* <span>UPE</span> */}
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

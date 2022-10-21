@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gruppo");
+@import url("https://fonts.googleapis.com/css?family=Teko");
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 .logo {
 	padding-top: 100px;
@@ -6,20 +9,20 @@
 }
 
 .title h1 {
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 1000;
 	font-size: 50px;
 }
 
 .interestFormQr h1 {
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 1000;
 	font-size: 60px;
 	text-align: center;
 }
 
 .interestFormQr h2 {
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 1000;
 	font-size: 40px;
 	padding-top: 15px;
@@ -44,7 +47,7 @@
 }
 
 .title-centered {
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 8000;
 	font-size: 35px;
 	text-align: center;
@@ -53,29 +56,34 @@
 }
 
 .bodyText h2 {
-	font-family: 'Gruppo';
+	font-family: 'Raleway';
 	font-weight: 1000;
 	font-size: 35px;
 	padding-top: 15px;
 }
 
 .bodyText li {
-	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-size: 15px;
+	/* font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+	font-family: 'Raleway';
+	font-size: 20px;
 	padding-bottom:5px;
 }
 
 .bodyText p {
-	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-size: 18px;
+	/* font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+	font-family: 'Raleway';
+	font-size: 20px;
+	font-weight: 500;
 }
 
 .bodyText {
 	padding-bottom: 20px;
+	font-family: 'Raleway';
+	font-weight: 500;
 }
 
 .bodyText Link {
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 800;
 	font-size: 20px;
 	color: #f21131;
@@ -99,7 +107,7 @@
 	background-color: #f21131;
 	color: #fff;
 	border-color: #f21131;
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 800;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -109,7 +117,7 @@
 	background-color: #C30000;
 	border-color: #C30000;
 	color: #fff;
-	font-family: 'Gruppo';
+	font-family: 'Teko';
 	font-weight: 800;
 	font-size: 20px;
 	text-transform: uppercase;
