@@ -33,7 +33,7 @@ const styles = {
   loginCardTitle: {
     "& h1": {
       fontSize: "50px",
-      fontFamily: "Roboto",
+      fontFamily: "Verdana",
       fontWeight: 1000,
     },
   },

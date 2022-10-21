@@ -13,7 +13,7 @@ import "../../styles/main-site/main.css";
 
 const styles = {
   contactFormh5: {
-    fontFamily: "Roboto",
+    fontFamily: "Verdana",
     fontWeight: 1000,
     fontSize: "35px",
     paddingTop: "15px",
@@ -29,7 +29,7 @@ const styles = {
   contactFormBtn: {
     backgroundColor: "#f21131",
     borderColor: "#f21131",
-    fontFamily: "Roboto",
+    fontFamily: "Verdana",
     fontWeight: 800,
     fontSize: "20px",
     textTransform: "uppercase",
