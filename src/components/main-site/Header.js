@@ -129,6 +129,9 @@ const Header = ({ classes }) => (
               <Link className={classes.mainNavLinksLink} to={ROUTES.ABOUT}>
                 <span>About</span>
               </Link>
+              <Link className={classes.mainNavLinksLink} to={ROUTES.MEMBERSEBOARD}>
+                <span>Eboard</span>
+              </Link>
               <Link className={classes.mainNavLinksLink} to={ROUTES.MEMBERS}>
                 <span>Members</span>
               </Link>
