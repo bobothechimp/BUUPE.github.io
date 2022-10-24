@@ -25,7 +25,7 @@ const styles = {
   mainNavBrand: {
     paddingLeft: "10px",
     "& span": {
-      fontFamily: "Cinzel",
+      fontFamily: "Verdana",
       fontSize: "36px",
       fontStyle: "semibold",
       fontWeight: "600",
@@ -49,12 +49,12 @@ const styles = {
     },
   },
   mainNavLinks: {
-    fontSize: "25px",
+    fontSize: "18px",
     paddingRight: "20px",
   },
   mainNavLinksLink: {
-    fontFamily: "Teko",
-    paddingTop: "8px",
+    fontFamily: "Verdana",
+    paddingTop: "2px",
     paddingLeft: "20px",
     color: "#fff",
     "&:hover": {
@@ -77,7 +77,7 @@ const styles = {
     },
   },
   mainNavLinksDropDownsSubLink: {
-    fontFamily: "Andale Mono, monospace",
+    fontFamily: "Verdana",
     fontWeight: "600",
     color: "#333",
     textDecoration: "none",
@@ -132,26 +132,29 @@ const Header = ({ classes }) => (
               <Link className={classes.mainNavLinksLink} to={ROUTES.LANDING}>
                 <span>Home</span>
               </Link>
-              <Link className={classes.mainNavLinksLink} to={ROUTES.ABOUT}>
+              {/* <Link className={classes.mainNavLinksLink} to={ROUTES.ABOUT}>
                 <span>About</span>
-              </Link>
+              </Link> */}
               <Link className={classes.mainNavLinksLink} to={ROUTES.MEMBERS}>
                 <span>Members</span>
+              </Link>
+              <Link className={classes.mainNavLinksLink} to={ROUTES.PROJECTS}>
+                <span>Projects</span>
               </Link>
               <Link className={classes.mainNavLinksLink} to={ROUTES.CONTACT}>
                 <span>Contact</span>
               </Link>
-              <Link className={classes.mainNavLinksLink} to={ROUTES.EVENTS}>
+              {/* <Link className={classes.mainNavLinksLink} to={ROUTES.EVENTS}>
                 <span>Events</span>
-              </Link>
-              <Link className={classes.mainNavLinksLink} to={ROUTES.LOGIN}>
+              </Link> */}
+              {/* <Link className={classes.mainNavLinksLink} to={ROUTES.LOGIN}>
                 <span>
                   <FontAwesomeIcon
                     className={classes.loginIcon}
                     icon={faUserCircle}
                   />
                 </span>
-              </Link>
+              </Link> */}
             </Nav>
           </div>
         </Navbar.Collapse>
